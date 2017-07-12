@@ -12,7 +12,7 @@ Installing CONFOLD
 2. Update paths for the variables '$cns_suite' in 'core.pl'.
 3. Configure how CONFOLD2 will be parallelized.
    Current (default) configuration is to use HPC cluster.
-   Make appropriate changes at lines 113-117 of 'confold2-core.pl' to run in a local machine.
+   Make appropriate changes at lines 113-117 of 'confold2-main.pl' to run in a local machine.
 4. Test the program:
    $ ./confold2-main.pl -rr ./dry-run/input/1guu.rr -ss ./dry-run/input/1guu.ss -out ./output 
 

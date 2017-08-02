@@ -44,6 +44,11 @@ Installing CNS Suite
    $ ../bin/run_tests -tidy *.inp
 
 --------------------------------------------------------------------------------
+Predictions for PSICOV, CASP11, and CASP12 datasets
+--------------------------------------------------------------------------------
+The 'predictions' folder contains contact predictions, secondary structure predictions, and CONFOLD2 reconstructed models for (a) PSICOV dataset using PSICOV contacts, (b) PSICOV dataset using MetaPSICOV contacts, (c) CASP11 dataset using CONSIP2 contacts, and (d) CASP12 dataset using RaptorX contacts.
+
+--------------------------------------------------------------------------------
 Contact
 --------------------------------------------------------------------------------
 bap54@mail.missouri.edu (developer)

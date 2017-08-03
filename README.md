@@ -46,7 +46,7 @@ Installing CNS Suite
 --------------------------------------------------------------------------------
 Predictions for PSICOV, CASP11, and CASP12 datasets
 --------------------------------------------------------------------------------
-The contact predictions, secondary structure predictions, and CONFOLD2 reconstructed models for (a) PSICOV dataset using PSICOV contacts, (b) PSICOV dataset using MetaPSICOV contacts, (c) CASP11 dataset using CONSIP2 contacts, and (d) CASP12 dataset using RaptorX contacts are available at http://calla.rnet.missouri.edu/download/confold2/.
+The contact predictions, secondary structure predictions, and CONFOLD2 reconstructed models for (a) PSICOV dataset using PSICOV contacts, (b) PSICOV dataset using MetaPSICOV contacts, (c) CASP11 dataset using CONSIP2 contacts, and (d) CASP12 dataset using RaptorX contacts are available at http://sysbio.rnet.missouri.edu/bdm_download/confold2/.
 
 --------------------------------------------------------------------------------
 Contact

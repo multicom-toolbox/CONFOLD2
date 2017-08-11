@@ -14,7 +14,7 @@ Installing CONFOLD
    Current (default) configuration is to use HPC cluster.
    Make appropriate changes at lines 113-117 of 'confold2-main.pl' to run in a local machine.
 4. Test the program:
-   $ ./confold2-main.pl -rr ./dry-run/input/1guu.rr -ss ./dry-run/input/1guu.ss -out ./output 
+   $ ./confold2-main.pl -rr ./dry-run/input/1guu.rr -ss ./dry-run/input/1guu.ss -out ./output-1guu 
 
 --------------------------------------------------------------------------------
 Installing CNS Suite
@@ -36,9 +36,7 @@ Installing CNS Suite
    For instance, if your CNS installation path is
    '/home/user/programs/cns_solve_1.3' replace
    '_CNSsolve_location_' with this path
-6. Install
-   $ make install
-7. Test CNS installation
+6. Test CNS installation
    $ source cns_solve_env.sh
    $ cd test 
    $ ../bin/run_tests -tidy *.inp

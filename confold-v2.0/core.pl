@@ -1378,7 +1378,7 @@ sub system_cmd{
 	my $log = shift;
 	confess "EXECUTE [$command]?\n" if (length($command) < 5  and $command =~ m/^rm/);
 	if(defined $log){
-		system("$command &> $log");
+		system("$command > $log 2>&1");
 	}
 	else{
 		#print "\n[Executing: $command]\n";

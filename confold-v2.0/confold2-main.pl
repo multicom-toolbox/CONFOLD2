@@ -66,6 +66,12 @@ for(my $i = 0.1; $i < 4.01; $i = $i + 0.1){
 
 print "Started [$0]: ".(localtime)."\n";
 my $id = basename($file_rr, ".rr");
+
+if(index($dir_out,"$id")<0)
+{
+  $dir_out = "$dir_out-$id";
+}
+
 system_cmd("mkdir -p $dir_out") if not -d $dir_out;
 chdir $dir_out or confess $!;
 
